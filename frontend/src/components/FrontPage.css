@@ -1,0 +1,19 @@
+body {
+  background: #4d4d4d;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear;
+} */
+
+svg:hover path {
+  fill: red;
+}
